@@ -1,3 +1,11 @@
+# Why forked? (& potential alterations you'd need to use it)
+Had some issues loading in the original one so I forked, compiled myself (which worked for me) and made a release so I can use it with npm.
+The output library required manual initialization so before using the imported Fuzzr class you'll need to run:
+```js
+init()
+```
+Potentially you also need to supply a path to the "fuzzr_bg.wasm" file from the pkg-directory. Depending on your use-case this file might need to be loaded from a hosted source.
+
 # Fuzzr
 
 Fuzzr is an incredibly fast fuzzy searcher compiled for browser use. This
