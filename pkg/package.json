@@ -1,0 +1,23 @@
+{
+  "name": "fuzzr",
+  "collaborators": [
+    "Joakim Repomaa <mail@j.repomaa.com>"
+  ],
+  "description": "An incredibly fast fuzzy search utilizing rust compiled to wasm",
+  "version": "0.3.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/repomaa/fuzzr"
+  },
+  "files": [
+    "fuzzr_bg.wasm",
+    "fuzzr.js",
+    "fuzzr.d.ts"
+  ],
+  "module": "fuzzr.js",
+  "types": "fuzzr.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
